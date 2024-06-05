@@ -1,0 +1,344 @@
+@font-face {
+    font-family: 'satisfy'; 
+    src: url('../fonts/Satisfy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    margin: 0%;
+    padding: 0%;
+    height: 12vh;
+    background-color: whitesmoke; 
+    display: flex;
+}
+.sectionheader1{
+    width: 55%;
+}
+.title{
+    .title_color{
+        color: #FFCFE6;
+    }
+    font-family: "satisfy" ,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 220% ;
+}
+.sectionheader2{
+    article{
+        padding-top: 4%;
+    }
+    select{
+        border: none;
+        background-color: whitesmoke;
+    }
+    .search_card,.facebook_card,.twitter_card,.instagram_card{
+        height: 12vh;
+        width: 8%; 
+        margin-top: 0%;
+    }
+    .search_card{
+        margin-right: 5%;
+    }
+    aside{
+        width: 33%;
+        padding-top: 4%;
+    }
+    display: flex;
+    width: 45%;
+    float: right;
+}
+
+.afterHeader{
+    height: 85vh;
+    display: flex;
+    background-image: url(../images/afterHeader.jpeg);
+    background-size: cover;
+}
+
+.afterHeaderText{
+    font-size: 1.8em;
+}
+.cursor{
+    height: 10px;
+    width: 8%;
+    display: flex;
+    margin-top: 35%;
+    margin-left: 47%;
+    justify-content: space-around;
+}
+.cursor_card,.cursor_elt{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+.cursor_elt{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(193, 184, 184);
+    opacity: 0.4;
+    float: left;
+}
+.card_text_section{
+    height: 75vh;
+    width: 80%;
+    margin-left: 10%; 
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text_style{
+    font-family: "satisfy",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    color: #FFCFE6;
+    font-size: 150%;
+}
+.learnMore{
+    height: 5vh;
+    width: 30vh;
+    color: white;
+    border: none;
+    background-color: #FFCFE6;
+}
+.card_text{
+   /*  .salon{
+        margin: -100%;
+    } */
+    h2{
+        margin-top: 15%;
+    }
+    height: 70vh;
+    width: 30.5%;
+    text-align: center;}
+#card_text2{
+    h2{
+        margin-top: 50%;
+    }
+    p,#salon2{
+        color: white;
+    } 
+    background-image: url(../images/coiffure_â_valence2.jpg);
+    background-repeat: no-repeat;
+}
+#afterHeader2{
+    h2,h1{
+        margin-bottom: -2%;
+        padding-top: 5%;
+        font-size: 3.5em;
+    }
+    h1{
+        margin-top: -5%;
+    }
+    p{
+        color: whitesmoke;
+        font-weight: 800;
+        font-size: 2.5em;
+    }
+    button{
+        height: 5vh;
+        width: 25vh;
+        border: none;
+        border-radius:  1.5vh;
+        color: black;
+        background-color: whitesmoke;
+    }
+    text-shadow: 1px 1px 1px black;
+    height: 85vh;
+    background-image: url(../images/reduction_image.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.photo_text{
+    height: 70vh;
+    margin-top:10vh ;
+    display: flex;
+}
+.card_photo_text{
+    width: 43%;
+}
+#card_photo_text1{
+    margin-left: 10%;
+}
+#card_photo_text2{
+    h2{
+        color: #FFCFE6;
+        font-size: 2.5em;
+        margin-bottom: -4%;
+    }
+    h1{
+        font-size: 2.5em;
+    }
+    margin-top: 5vh;
+}
+.about, .nos_services,.testimonials{
+    height: 80vh;
+    width: 80%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+}
+.about{
+    height: 70vh;
+}
+.about_card1{
+    height: 25vh;
+    display: flex;
+}
+.about1{
+    h2{
+        font-size: 2.5em;
+        margin-bottom: -4%;
+        color: #FFCFE6;
+    }
+    h1{
+        margin-left: 10%;
+        font-size: 2.5em;
+        margin-top: 0%;
+    }
+    #about1{
+        float: right;
+    }
+    width: 50%;
+}
+.about1_text{
+    text-shadow: 1px 1px 10px black; 
+}
+.about_card2{
+    height: 40vh;
+    display: flex;
+}
+.card_sousCard2{
+    height: 50vh;
+    width: 25%;
+}
+.card_sousCard2_img{
+    height: 10vh;
+    width: 30%;
+} 
+.about_1{
+    height: 80vh;
+}
+.about_1_card{
+    height: 40vh;
+    display: flex;
+
+}
+#about_2_card{
+    margin-top: -3%;
+}
+.abt1{
+    height: 34.5vh;
+    width: 25%;
+}
+.nos_services{
+    article{
+        h2,h1{
+            margin-bottom: 0%;
+            font-size: 2em;
+        }
+        h1{
+            margin-top: 0%;
+            font-size: 2.5em;
+        }
+        text-align: center;
+    }
+    .nos_services_cards{
+        height: 60vh;
+        display: flex;
+        justify-content: space-between;
+    }
+} 
+.nos_services_card{
+    a{
+        color: white;
+    }
+    article{
+        margin-top: 2%;
+    }
+    p{
+        margin-left: 5%;
+    }
+    h1{
+        font-size: 2em;
+        font-weight: bolder;
+    }
+    .text_colors{
+        color: #FFCFE6;
+    }
+    height: 60vh;
+    width: 30%;
+    margin-left: 9%;
+}
+.testimonials{
+    h1,h2{
+        text-align: center;
+        font-size: 2.5em;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    p{
+        margin-top: -1%;
+    }
+    .testimonials_cards{
+        .testimonials_card{
+            article{
+                width: 18%;
+            }
+            img,p{
+                margin-left: 10%;
+            }
+            padding-top: 10px;
+            border-radius: 10px;
+            display: flex;
+            height: 100%;
+            width: 50%;
+            margin: 3%;
+            border: 0.5px solid rgb(200, 188, 188)
+        }
+        margin: 3%;
+        margin-top: 0%;
+        display: flex;
+        height: 30%;
+    }
+    height: 70vh;
+}
+.testimonials_card_text{
+    width: 80%;
+}
+footer{
+    .footer_card{
+        p{
+            margin-top: -2%;
+        }
+        margin-top: 4%;
+        height: 20vh;
+        width: 20%;
+        display: flex;
+
+        article{
+            height: 40%;
+            width: 20%;
+        }
+        aside{
+            height: 20vh;
+            width: 80%;
+        }
+
+    }
+    background-color: #DF99B1;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+}

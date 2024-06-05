@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="../css/auth.css">
+</head>
+<body>
+
+  <div class="furie">
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form id="inscription-form" action="http://localhost:5000/gerant/signup" method="POST">
+                <h1>Create Account</h1>
+                <span>Or use your email for registration</span>
+
+
+                <input type="text" placeholder="Nom utilisateur" id="userName" required> 
+                <input type="text" placeholder="Name" id="lastName" required> 
+                <input type="text" placeholder="Second name" id="firstName" required>
+                <input type="number" id="age" name="age" required placeholder="Âge" id="age">
+                
+                <input type="password" placeholder="Password" id="password" required>
+                <input type="text" id="contact" name="contact" required placeholder="Contact" id="contact">
+                <select name="gender" id="gender">
+                    <option value="" disabled selected>Sélectionnez le genre</option>
+                    <option value="Masculin">Masculin</option>
+                    <option value="Feminin">Feminin</option>
+                </select>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form id="connexion-form" action="http://localhost:5000/gerant/Connexion" method="post">
+                <h1>Login</h1>
+                <span>Or use your name & password</span>
+                <input type="text" id="loginUsername" name="username" required placeholder="Username">
+                <input type="password" id="loginPassword" name="password" required placeholder="Password">
+                <a href="#">Forget Your password</a>
+                <button type="submit">Sign In</button>
+            </form>
+        </div>
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcom Back!</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your personal details to use all of site features</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="notification" class="notification"></div>
+    <script src="../javascript/auth.js"></script>
+</body>
+</html>
